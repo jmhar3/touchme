@@ -1,5 +1,106 @@
+/* FONTS */
+/* SET UP BACKUP FONTS */
+@font-face {
+    font-family: 'HiGaffaSansLight';
+    src: url(../fonts/HIGaffaSansLight.woff);
+}
+
+@font-face {
+    font-family: 'SedhayuCondensed';
+    src: url(../fonts/Sedhayu\ Condensed.woff);
+}
+
+@font-face {
+    font-family: 'SedhayuExpanded';
+    src: url(../fonts/Sedhayu\ Expanded.woff);
+}
+
+@font-face {
+    font-family: 'SedhayuItalicCondensed';
+    src: url(../fonts/Sedhayu\ Italic\ Condensed.woff);
+}
+
+@font-face {
+    font-family: 'SedhayuItalicExplanded';
+    src: url(../fonts/Sedhayu\ Italic\ Expanded.woff);
+}
+
+@font-face {
+    font-family: 'SedhayuItalic';
+    src: url(../fonts/Sedhayu\ Italic.woff);
+}
+
+@font-face {
+    font-family: 'SedhayuRegular';
+    src: url(../fonts/Sedhayu\ Regular.woff);
+}
+
+h1 {
+    font-family: 'SedhayuRegular';
+    font-size: 3em;
+    font-weight: 400;
+    color: #e02b61;
+}
+
+h2 {
+    color: #5217c0;
+    font-weight: 400;
+    font-family: 'SedhayuRegular';
+}
+
+h3 {
+    color: #e02b61;
+    font-weight: 400;
+    font-family: 'SedhayuRegular';
+}
+
+h4, input, textarea, button {
+    font-weight: 400;
+    font-family: 'SedhayuRegular';
+    color: #e02b61;
+}
+
+h5 {
+    font-weight: 400;
+    font-family: 'SedhayuRegular';
+    color: #e02b61;
+}
+
+p, li, a, div {
+    font-weight: 400;
+    font-family: 'SedhayuRegular';
+    font-size: .9em;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
 /* Neumorphism */
-border-radius: 41px;
-background: #e0e0e0;
-box-shadow:  18px 18px 36px #b8b8b8,
-             -18px -18px 36px #ffffff;
+.container {
+    border-radius: 41px;
+    background: #eee;
+    box-shadow:  18px 18px 36px #cac7c7,   -18px -18px 36px #ffffff;
+}         
+
+.container:hover {
+    border-radius: 41px;
+    background: #eee;
+    box-shadow: inset 20px 20px 60px rgb(233, 233, 233),
+    inset -20px -20px 60px #ffffff;
+} 
+
+a {
+    text-decoration: none;
+    color: #e02b61;
+}
+
+#work img, #blog img {
+    padding: .9em;
+}
+
+#work img:hover, #blog img:hover {
+    border-radius: 41px;
+    background: #eee;
+    box-shadow:  18px 18px 36px #cac7c7,   -18px -18px 36px #ffffff;
+}
