@@ -1,8 +1,8 @@
 /* FONTS */
 /* SET UP BACKUP FONTS */
 @font-face {
-    font-family: 'HiGaffaSansLight';
-    src: url(../fonts/HIGaffaSansLight.woff);
+    font-family: 'Sambosa';
+    src: url(../fonts/Sambosa.otf);
 }
 
 @font-face {
@@ -35,72 +35,100 @@
     src: url(../fonts/Sedhayu\ Regular.woff);
 }
 
-h1 {
+h1, h2, h3, h4, h5, p, li, input, textarea, button, a, div {
     font-family: 'SedhayuRegular';
-    font-size: 3em;
     font-weight: 400;
-    color: #e02b61;
+    color: #46b5d1;
+}
+
+h1 {
+    font-size: 3em;
 }
 
 h2 {
-    color: #5217c0;
-    font-weight: 400;
-    font-family: 'SedhayuRegular';
+    font-size: 2.1em;
 }
 
-h3 {
-    color: #e02b61;
-    font-weight: 400;
-    font-family: 'SedhayuRegular';
+h3, button {
+    font-size: 1.8em;
 }
 
-h4, input, textarea, button {
-    font-weight: 400;
-    font-family: 'SedhayuRegular';
-    color: #e02b61;
+h4 {
+    font-size: 1.5em;
 }
 
 h5 {
-    font-weight: 400;
-    font-family: 'SedhayuRegular';
-    color: #e02b61;
+    font-size: 1.2em;
 }
 
-p, li, a, div {
-    font-weight: 400;
-    font-family: 'SedhayuRegular';
+p, li, input, textarea {
+    font-family: 'Sambosa';
+    font-size: 1.1em;
+}
+
+div {
+    font-family: 'Sambosa';
     font-size: .9em;
 }
 
+/* HTML/BODY */
 html {
     scroll-behavior: smooth;
   }
 
-/* Neumorphism */
+body {
+    background-color: rgb(243, 243, 243);
+}
+
+/* MENU */
 .container {
-    border-radius: 41px;
-    background: #eee;
+    border-radius: 21px;
+    background: rgb(243, 243, 243);
     box-shadow:  18px 18px 36px #cac7c7,   -18px -18px 36px #ffffff;
 }         
 
 .container:hover {
-    border-radius: 41px;
-    background: #eee;
+    border-radius: 21px;
+    background: rgb(243, 243, 243);
     box-shadow: inset 20px 20px 60px rgb(233, 233, 233),
     inset -20px -20px 60px #ffffff;
 } 
 
 a {
     text-decoration: none;
-    color: #e02b61;
 }
 
-#work img, #blog img {
+#email h4:hover {
+    color: rgb(54, 206, 155);
+}
+
+#work img, #blog img, #email img {
     padding: .9em;
 }
 
-#work img:hover, #blog img:hover {
-    border-radius: 41px;
-    background: #eee;
+#work img:hover, #blog img:hover, #email img:hover {
+    border-radius: 21px;
+    background: rgb(243, 243, 243);
     box-shadow:  18px 18px 36px #cac7c7,   -18px -18px 36px #ffffff;
+}
+
+#footer p {
+    font-size: 1.2em;
+}
+
+button {
+    padding: 12px;
+    margin-top: 15px;
+    border-radius: 21px;
+    border: 0;
+    background: rgb(243, 243, 243);
+    box-shadow:  18px 18px 36px #cac7c7,   -18px -18px 36px #ffffff;
+}
+
+button:hover {
+    border-radius: 21px;
+    background: rgb(243, 243, 243);
+    box-shadow: inset 20px 20px 60px rgb(233, 233, 233),
+    inset -20px -20px 60px #ffffff;
+    cursor: pointer;
 }

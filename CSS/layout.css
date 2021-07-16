@@ -16,8 +16,12 @@
     text-align: center;
 }
 
-img {
+#menu img {
     width: 2.7em;
+}
+
+img {
+    width: 1.5em;
 }
 
 #menu p {
@@ -27,11 +31,8 @@ img {
 
 /* MAIN */
 main {
-    margin-left: 9em;
-}
-
-#tech {
-    float: left;
+    margin-left: 6.6em;
+    padding-right: 3em;
 }
 
 #blog a {
